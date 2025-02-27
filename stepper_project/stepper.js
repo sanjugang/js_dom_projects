@@ -26,10 +26,7 @@ container.style.justifyContent="center";
 container.style.alignItems="center"
 
 //elements
-const img1=document.createElement("img");
-img1.src="https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png";
-img1.height="40px";
-img1.width="40px";
+
 
 
 
@@ -119,7 +116,7 @@ const t4=document.createElement("p");
 t4.innerText="Ready to get delivered";
 t4.style.fontSize="20px"
 const t5=document.createElement("p");
-t5.innerText="Order deliverd successfully";
+t5.innerText="Order deliverd successfully!🎉";
 t5.style.fontSize="20px"
 
 
@@ -158,7 +155,7 @@ function changeColor(count){
     for(let i=0;i<divs.length;i++){
         if(i<count){
             divs[i].style.backgroundColor="green";
-            divs[i].append(img1);
+            // divs[i].append(img1);
         }
         else{
             divs[i].style.backgroundColor="white";
